@@ -28,9 +28,10 @@ header{
 		/*Font size, line-height, and family*/
 		font: 100px/80px Brush Script MT, cursive;
 		text-align: center;
-		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-		/*Background color, image, position*/
-		background-color: #0f4275;
+		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f38765, 0 0 20px #f38765, 0 0 25px #f38765, 0 0 30px #f38765, 0 0 35px #f38765;
+		
+	/*Background color, image, position*/
+		background-color: #fff;
 		background-image:none;
 		background-repeat: no-repeat;
 		background-position: 10px center;	
