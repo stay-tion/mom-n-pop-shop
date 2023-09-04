@@ -45,9 +45,9 @@ header{
 /*======== Styling for the sidebar section (aside)====*/
 aside{
  font: 25px Tahoma, Arial, Sans-Serif;
- width:130px;
- padding:10px;
- float:left;
+ width: 130px;
+ padding: 10px;
+ float: top;
 }
 
 /*======== Styling for links in nav section=======*/
