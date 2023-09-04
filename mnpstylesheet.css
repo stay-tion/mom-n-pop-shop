@@ -28,7 +28,8 @@ header{
 		/*Font size, line-height, and family*/
 		font: 100px/80px Brush Script MT, cursive;
 		border: 5px groove;
-		border-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #66ccff, 0 0 20px #66ccff, 0 0 25px #66ccff, 0 0 30px #66ccff, 0 0 35px #66ccff;
+		box-shadow: 120px 80px 40px 20px #66ccff;
+		/*border-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #66ccff, 0 0 20px #66ccff, 0 0 25px #66ccff, 0 0 30px #66ccff, 0 0 35px #66ccff;*/
 		text-align: center;
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f38765, 0 0 20px #f38765, 0 0 25px #f38765, 0 0 30px #f38765, 0 0 35px #f38765;
 		
