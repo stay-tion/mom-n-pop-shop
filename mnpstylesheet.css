@@ -28,7 +28,8 @@ header{
 		/*Font size, line-height, and family*/
 		font: 100px/80px Brush Script MT, cursive;
 		border: 5px groove;
-		box-shadow: 120px 80px 40px 20px #66ccff;
+		border-color:#66ccff;
+		box-shadow: 0px 0px 0px 20px #66ccff;
 		/*border-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #66ccff, 0 0 20px #66ccff, 0 0 25px #66ccff, 0 0 30px #66ccff, 0 0 35px #66ccff;*/
 		text-align: center;
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f38765, 0 0 20px #f38765, 0 0 25px #f38765, 0 0 30px #f38765, 0 0 35px #f38765;
@@ -52,8 +53,8 @@ aside{
 /*======== Styling for links in nav section=======*/
 nav a{
 	display:block;
-	 background-color: #cfe7ff;
-	 color: #101a79;
+	 background-color: white;
+	 color: black;
 	 font-weight: bold;
 	 text-align: center; 
 	 /* As wide as the content width */
@@ -86,9 +87,9 @@ nav a:hover, nav a:active {
 /* Style elements inside of header*/
 .block {
 	border-style:groove;
-	border-color:white;
+	border-color:blue;
 	border-size:10px;
-	box-shadow:0px 0px 15px white;
+	box-shadow:0px 0px 15px blue;
 	padding: 5px;
 }
 
@@ -110,7 +111,7 @@ article a:visited {
 /* Mouse pointer on link */
 article a:hover {
   background-color: #bc9f81;
-  color: #1e2953;
+  color: blue;
 }
 /* Mouse pointer on link and left button down */
 article a:active {
