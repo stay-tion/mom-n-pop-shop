@@ -35,7 +35,7 @@ header{
 		height: 100px;
 	
 	/*Font size, line-height, and family*/
-		font: 100px/80px, 
+		font-size: 100px/80px; 
 		font-family:'Tilt Neon', cursive;
 		text-align: center;
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f38765, 0 0 20px #f38765, 0 0 25px #f38765, 0 0 30px #f38765, 0 0 35px #f38765;
