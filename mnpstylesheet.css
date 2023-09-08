@@ -2,8 +2,8 @@
 
 /* Style rule for the body element */
 body {
-  background-color: white;
-  background-image: linear-gradient(white,white); 
+  background-color: black;
+  background-image: linear-gradient(black,black); 
   
 /* Default font styling */
   font: 60 pt Tahoma, Arial, sans-serif; 
@@ -25,43 +25,57 @@ header, nav, aside, article, footer, section{
 
 /*==============Layout Sections============*/
 
-/*Styling for page header */
-header{
-		height: 100px;
-	
-	/*Font size, line-height, and family*/
-		font: 100px/80px 'Tilt Neon', sans serif;
+/*Flicker Animation*/
+	.neon{
+		font: 100px/80px 'Tilt Neon', cursive;
 		text-align: center;
-		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f38765, 0 0 20px #f38765, 0 0 25px #f38765, 0 0 30px #f38765, 0 0 35px #f38765;
+  		text-shadow: 1px 0px 4px #f38765, 2px 0px 4px #f38765, 3px 0px 4px #f38765, 2px 0px 3px #D42CCA, 2px 3px 15px #D42CCA, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #D42CCA,40px 0vw 200px #D42CCA;
 		
-	/*Background color, image, position*/
-		background-color: #fff;
-		background-image:none;
-		background-repeat: no-repeat;
-		background-position: 10px center;
-	
-	/* Border*/
-		border-style: solid;
+		/* Border*/
+		border-style: groove;
 		border-color: #bcdfeb;
-		border-size: 20px;
-		box-shadow:0px 0px 15px #bcdfeb;
-		padding: 5px;
+		border-width: 10px;
+		box-shadow:10px 0px 25px #bcdfeb;
+		padding: 15px;
+		
+	     }
+
+	.flicker-slow{
+		 animation: flicker 3s linear infinite;
+		      }
+
+	
+	.flicker-fast{
+		 animation: flicker 1s linear infinite;
+	   	     }
+
+	@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		//text-shadow: none;
+   		 opacity: .99;
+		
+	}
+
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
 }
+
 
 
 /*======== Styling for the sidebar section (aside)====*/
 aside{
-	 font: 25px Tahoma, Arial, Sans-Serif;
+	 font: 25px "Tilt Neon", cursive;
 	 width: 130px;
-	 padding: 10px;
+	 padding: 20px;
 	 float: top;
 }
 
 /*======== Styling for links in nav section=======*/
 nav a{
- 	 display:block;
-	 background-color: white;
-	 color: black;
+ 	 display:inline-block;
+	 background-color: none;
+	 color: #fff;
 	 font-weight: bold;
 	 text-align: center; 
 	 /* As wide as the content width */
@@ -78,22 +92,22 @@ nav a{
 }
 
 nav a:link, nav a:visited {
- 	background-color: #cfe7ff;
-	 color: #101a79;
+ 	background-color: #000;
+	 color: #fff;
 }
  
 
 
 nav a:hover, nav a:active {
- 	background-color: #cfe7ff;
- 	color: white;
+ 	background-color: #000;
+ 	color: #fff;
 }
 
 
 
 /*========Styling for the article section==========*/
 
-/* Style elements inside of header*/
+/* Style elements inside of article*/
 .block {
 	border-style:groove;
 	border-color:blue;
@@ -142,7 +156,7 @@ article a:active {
 	  clear:both;
 	  height:35px;
 	  padding:5px;
-	  background-color: #cfe7ff;
+	  background-color: #000;
 	  border-bottom-left-radius: 18px;
 	  border-bottom-right-radius: 18px;
 }
@@ -151,7 +165,7 @@ article a:active {
    footer table {
 	  width: 98%;
 	  margin: 5px auto;
-	  color:#101a79
+	  color:#000;
    }
 
 /*===========General style rules and classess=========*/
