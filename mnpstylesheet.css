@@ -129,7 +129,7 @@ nav a:hover, nav a:active {
 
 /*========Styling for the article section==========*/
 
-/* Style elements inside of header*/
+/* Style elements inside of article*/
 .block {
 	border-style:groove;
 	border-color:blue;
@@ -193,7 +193,7 @@ article a:active {
 /*===========General style rules and classess=========*/
 
 /* Style for h1 headings */
-h1 {
+a1 {
 	  font: 50px 'Tilt Neon', sans serif;
 	  text-align: left;
 	  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
@@ -202,7 +202,7 @@ h1 {
 
 
 /* Style for h2 headings */
-h2 {
+a2 {
 		font: 50px 'Tilt Neon', sans serif;
 		text-align: left;
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
@@ -211,7 +211,7 @@ h2 {
 
 
 /* Style for h3 headings */
-h3 {
+a3 {
  	  	font: 50px 'Tilt Neon', sans serif;
 		text-align: left;
 		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
