@@ -71,8 +71,7 @@ aside{
 
 /*======================== Styling for links in nav section ======================*/
 nav a{
- 	 display:inline-block;
-	 position: sticky;
+ 	 display:ilock;
 	 background-color: none;
 	 color: #fff;
 	 font-weight: bold;
