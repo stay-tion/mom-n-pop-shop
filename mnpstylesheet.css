@@ -1,11 +1,9 @@
 /* mnpstylesheet.css */
 
-/* Style rule for the body element */
+/*===================== Style rule for the body element ===================*/
 body {
   background-color: black;
   background-image: linear-gradient(black,black); 
-  
-/* Default font styling */
   font: 60 pt Tahoma, Arial, sans-serif; 
   color: white;
   margin:0;
@@ -23,7 +21,7 @@ header, nav, aside, article, footer, section{
  display:block;
 }
 
-/*==============Layout Sections============*/
+/*===================================== Layout Sections ======================*/
 
 /*Flicker Animation*/
 	.neon{
@@ -63,7 +61,7 @@ header, nav, aside, article, footer, section{
 
 
 
-/*======== Styling for the sidebar section (aside)====*/
+/*======================== Styling for the sidebar section (aside)===================*/
 aside{
 	 font: 25px "Tilt Neon", cursive;
 	 width: 130px;
@@ -71,7 +69,7 @@ aside{
 	 float: top;
 }
 
-/*======== Styling for links in nav section=======*/
+/*======================== Styling for links in nav section ======================*/
 nav a{
  	 display:inline-block;
 	 background-color: none;
@@ -105,7 +103,7 @@ nav a:hover, nav a:active {
 
 
 
-/*========Styling for the article section==========*/
+/*========================= Styling for the article section ========================*/
 
 /* Style elements inside of article*/
 .block {
@@ -122,7 +120,7 @@ article{
 }
 
 
-/* ==== Links and link states in article section. === */
+/* ====================== Links and link states in article section. ================== */
 
 
 /* Unvisited links */
@@ -151,24 +149,9 @@ article a:active {
 }
 
 
-/*=====Styling for footer====*/
-   footer{
-	  clear:both;
-	  height:35px;
-	  padding:5px;
-	  background-color: #000;
-	  border-bottom-left-radius: 18px;
-	  border-bottom-right-radius: 18px;
-}
 
-/*Styling for table in footer*/
-   footer table {
-	  width: 98%;
-	  margin: 5px auto;
-	  color:#000;
-   }
 
-/*===========General style rules and classess=========*/
+/*======================== General style rules and classess========================*/
 
 /* Style for h1 headings */
 h1 {
@@ -220,7 +203,13 @@ p {
 	  margin-left: 400px;
 }
 
+.pdubs:hover {
 
+	font: 40px Tahoma, Sans-Serif;
+	text-decoration: underline dotted;
+}
+
+	
 
 /* === Style classes === */
 
@@ -238,4 +227,19 @@ p {
 
 }
 
- 
+/*============================= Styling for footer ================================*/
+   footer{
+	  clear:both;
+	  height:35px;
+	  padding:5px;
+	  background-color: #000;
+	  border-bottom-left-radius: 18px;
+	  border-bottom-right-radius: 18px;
+}
+
+/*Styling for table in footer*/
+   footer table {
+	  width: 98%;
+	  margin: 5px auto;
+	  color:#000;
+   }
