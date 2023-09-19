@@ -3,7 +3,7 @@
 /*===================== Style rule for the body element ===================*/
 body {
   background-color: black;
-  background-image: linear-gradient(black,blue); 
+  background-image: linear-gradient(black,black); 
   font: 60 pt Tahoma, Arial, sans-serif; 
   color: white;
   margin:0;
@@ -108,7 +108,7 @@ nav a:hover, nav a:active {
 
 /* Style elements inside of article*/
 .block {
-	position: absolute;
+	position: relative;
 	border-style:groove;
 	border-color:blue;
 	border-size:10px;
