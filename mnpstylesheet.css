@@ -87,7 +87,6 @@ nav a{
 	 /* No underline or dotted outline */
 	 text-decoration: none;
 	 outline: none;
-	 clear:none;
 }
 
 nav a:link, nav a:visited {
