@@ -238,10 +238,10 @@ p {
 }
 
 .gallery {
-  column-count: 5;
-  --webkit-column-count: 5;
-  --moz-column-count: 5;
-  gap: 1rem;
+  column-count: 3;
+  --webkit-column-count: 3;
+  --moz-column-count: 3;
+  gap: 2rem;
   padding: 4rem;
 }
 
